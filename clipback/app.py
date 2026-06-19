@@ -6,7 +6,7 @@ import streamlit as st
 from PIL import Image
 from io import BytesIO
 
-from clipback.search_engine import load_model, load_index, search
+from search_engine import load_model, load_index, search
 
 SEARCH_MODE = "lora"   # "baseline" | "lora"
 CAMPUS_CATEGORIES = ["전체", "지갑", "전자기기", "휴대폰", "가방", "의류", "도서용품", "기타물품"]
