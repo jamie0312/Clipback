@@ -1,0 +1,9 @@
+streamlit
+requests
+pillow
+numpy
+torch
+transformers
+peft
+faiss-cpu
+safetensors
