@@ -1,6 +1,6 @@
 # LoRA Lost & Found Streamlit App
 
-교수님 요구에 맞춘 **Bingsu 한국어 CLIP + LoRA + FAISS + 보정 점수** 기반 분실물 검색 앱입니다.
+
 
 ## 폴더 구조
 
