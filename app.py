@@ -150,7 +150,7 @@ else:
     if st.session_state.search_clicked and st.session_state.current_query:
         is_initial = False
         raw = search(st.session_state.current_query, model, processor,
-                     index, metadata, top_k=20)
+                     index, metadata, top_k=9)
 
         # 카테고리 필터
         results = [
@@ -162,7 +162,7 @@ else:
             item for item in metadata
             if category == "전체" or item.get("prdtClNm", "").split(" > ")[0] == category
         ]
-        results = filtered[:20]
+        results = filtered[:9]
 
     # 결과 그리드
     st.write("---")
