@@ -1,0 +1,9 @@
+torch==2.12.0
+torchvision==0.27.0
+transformers==5.12.1
+qwen-vl-utils==0.0.14
+pillow
+tqdm
+openai==2.43.0
+python-dotenv==1.2.2
+sentencepiece==0.2.1
